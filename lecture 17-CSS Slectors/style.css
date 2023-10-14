@@ -1,0 +1,53 @@
+/* element selector */
+div{
+    background-color: red;
+    color: bisque;
+}
+
+/* class selector */
+.div2{
+    background-color: yellow;
+    color: magenta;
+}
+
+/* ID  selector */
+#div3{
+    background-color: green;
+    color: gold;
+}
+
+/* Child Selector */
+div>span>p{
+    background-color: indianred;
+}
+.div2>p{
+    background-color: blueviolet;
+}
+#div3>p{
+    background-color: blue;
+}
+
+/* Descendant selector */
+div article{
+    background-color: steelblue;
+}
+
+/* universal selector */
+*{     
+    margin:5%;
+    padding: 5%;
+}
+
+/* pseudo selector */
+a:visited{
+    color:blue;
+}
+a:link{
+    color: green;
+}
+a:active{
+    background-color: red;
+}
+a:hover{
+    background-color: yellow;
+}

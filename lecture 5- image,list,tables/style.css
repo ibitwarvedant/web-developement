@@ -1,0 +1,15 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+table{
+    border: 2px solid black;
+    background-color:brown;
+}
+td{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+
+}

@@ -1,0 +1,25 @@
+.box{
+    color:mediumvioletred;
+}
+.box1{
+    background-color:aqua ;
+    padding: 10px;
+    border:10px solid blueviolet;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.box2{
+    background-color:coral;
+    padding: 10px;
+    border:10px solid blueviolet;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,13 @@
+figure {
+    border: 10px #b5cb24 solid;
+    padding: 10px;
+    margin: 100px;
+}
+
+figcaption {
+    background-color: rgb(221, 36, 36);
+    color: rgb(193, 162, 36);
+    font-style: italic;
+    padding:10px;
+    text-align: center;
+}

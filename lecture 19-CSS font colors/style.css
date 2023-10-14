@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    /* text-decoration-style: dotted; */
+    text-decoration-thickness: 10px;
+    text-indent: 100px;
+}
+p{
+    font-weight:500;
+    
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* text-decoration: overline;  */
+    /* font-style: italic; */
+    text-decoration: underline;
+    /* font-family: 'Pixelify Sans', sans-serif; */
+    font-family: 'Fasthand', cursive;
+    font-size: 15px;
+    color: blue;
+    line-height: 3;
+    letter-spacing:1px;
+}
+h2{
+    text-align: center;
+    /* text-transform:uppercase; */
+    text-transform: capitalize;
+}
+
+.lorem{
+    border: 2px solid red;
+    width:300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* word-break: break-all; */
+}
