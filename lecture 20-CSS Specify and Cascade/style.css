@@ -24,7 +24,7 @@ h1.purple{
 }
 
 /* 3rd preference to element selector , specificity is 1*/
-/* if we use important keyword it will have the highest specificity, specificity of importamt is even higgher than the inine css , specifity of important keyword is 10,000*/
+/* if we use important keyword it will have the highest specificity, specificity  of importamt is even higgher than the inine css , specifity of important keyword is 10,000*/
 h1{
     color:chocolate !important;
 } 
