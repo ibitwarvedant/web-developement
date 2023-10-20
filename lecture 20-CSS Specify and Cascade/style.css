@@ -1,21 +1,38 @@
-/* 1st preference to id */
-#head{
-    color:orange
-}
+/* inline css have the highest specificity, specificity is 1000*/
+/* after inline css  following are there */
+/* 1st preference to id selector, specificity is 100*/
+/* #head{
+    color:orange;
+    } */
 
-/* 2nd preference to class name */
+/* 2nd preference to class selector and attribute selector, specificity is 10 */
 /* if we style using class name then the last style will be applied. same as a variable in other programming languages. Simply it is overwritten */
-.purple{
+/* if style uses same selector, then the style aapplied at last will be executed    */
+/* h1.purple have more specificity than other class selectors because, class specificity(10) + element selector(1) = selector specificity(11) */
+h1.purple{
     color: purple;
-}
+} 
 .red{
     color: red;
 }
 .yellow{
     color: yellow;
 }
-
-/* 3rd preference to tag */
-h1{
-    color:chocolate
+/* attribute selector */
+[vedant=a]{
+    color:hotpink;
 }
+
+/* 3rd preference to element selector , specificity is 1*/
+/* if we use important keyword it will have the highest specificity, specificity of importamt is even higgher than the inine css , specifity of important keyword is 10,000*/
+h1{
+    color:chocolate !important;
+} 
+
+/* To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000 */
