@@ -1,9 +1,9 @@
 /* inline css have the highest specificity, specificity is 1000*/
 /* after inline css  following are there */
 /* 1st preference to id selector, specificity is 100*/
-/* #head{
+#head{
     color:orange;
-    } */
+    }
 
 /* 2nd preference to class selector and attribute selector, specificity is 10 */
 /* if we style using class name then the last style will be applied. same as a variable in other programming languages. Simply it is overwritten */
