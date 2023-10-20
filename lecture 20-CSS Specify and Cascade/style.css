@@ -1,0 +1,21 @@
+/* 1st preference to id */
+#head{
+    color:orange
+}
+
+/* 2nd preference to class name */
+/* if we style using class name then the last style will be applied. same as a variable in other programming languages. Simply it is overwritten */
+.purple{
+    color: purple;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+
+/* 3rd preference to tag */
+h1{
+    color:chocolate
+}
