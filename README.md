@@ -5,7 +5,7 @@ Welcome to the JavaScript, CSS, HTML Programs Repository! This repository aims t
 
 ## Programs
 
-The programs in this repository are organized in ascending order from begginer to Advanced. Each file contains htmlcss and javascript language.
+The programs in this repository are organized in ascending order from begginer to Advanced. Each file contains html, css and javascript programs.
 
 
 ## Usage
