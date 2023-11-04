@@ -1,0 +1,13 @@
+.box1{
+border:15px solid rgb(211, 51, 128);
+box-shadow: 11px 11px 13px 4px #92d392;
+display: inline-flex;
+padding: 10px;
+}
+.para{
+    text-shadow: 1px 1px 7px red;
+}
+.b{
+    outline: 10px solid blue;
+    border-radius: 10px;
+}
